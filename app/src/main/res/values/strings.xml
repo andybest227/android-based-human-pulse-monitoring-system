@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Human Pulse Monitor</string>
+    <string name="default_text">00 bpm</string>
+    <string name="timer_txt">0</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">History</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hpm">Human Pulse</string>
+    <string name="monitoring_system">Monitoring System</string>
+    <string name="instr">Press the Floating Button below, then place the tip of your finger on the camera lens to Begin</string>
+    <string name="developer">Developed by Ugwoke Michael</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_info">Information</string>
+    <string name="large_text">
+        "Start Your Measurement.\n\n"
+
+        "Instant Heart Rate measures your heart rate by analyzing color changes on the tip of your finger.\n\n"
+
+        "Gently place the tip of your finger on the camera so it completely covers the lens. "
+        "It is not necessary to cover the flash. Hold your phone steady. \n\n"
+
+        "Heart Rate Zones.\n\n"
+
+        "Heart Rate is the number of heart beats per unit of time, typically expressed as "
+        "beat per minutes (bpm).\n\n"
+
+        "Warm Up.\n\n"
+
+        "132bpm - 144bpm "
+        "50-60% of heart rate reserve "
+        "This zone is the least intense. You are in it just to warm up or cool down, "
+        "in order to prevent injuries.\n\n"
+
+        "Fat Burn.\n\n"
+
+        "144 - 156bpm "
+        "60 - 70% of heart rate reserve.\n"
+        "Stay in this zone if your goal is to lose weight. Your body is fueled by 10% "
+        "carbohydrates, 5% protein and 85% fat.\n"
+        "The actual number of calories burned per minute will be less than in higher zones, "
+        "but you'll be able to maintain exercise longer.\n\n"
+
+        "Cardio.\n\n"
+
+        "156bpm - 168bpm \n"
+        "70 - 80% of heart rate reserve \n"
+        "Also called anaerobic zone. In this you'll get the greatest health benefits overall. "
+        "Your heart and lung capacity will increase and your overall fitness will also increase, "
+        "so you'll be able to exercise longer. Your body will get 50% of your calories from fat, "
+        "50% from carbohydrates and protein burn will be minimal.\n\n"
+
+        "Extreme.\n\n"
+        "168bpm - 180bpm \n"
+        "80 - 90% of heart rate reserve \n"
+
+        "Also called anaerobic zone. This is highly intense exercise and should be limited to no "
+        "more than 10-20 minutes. Your body's ability to consume oxygen will increase. \n"
+        "If you push too hard your body will start producing lactic acid. Your body will burn 85% "
+        "fats and minimal percentage of protein.\n\n"
+
+        "Max.\n\n"
+
+        "180bpm - 192bpm \n"
+        "You are pushing your heart to the limits here and should consult your doctor to check "
+        "if you can exercise in this zone safely. \n\n"
+
+        "Heart rate zones in this app are calculated using Detection Algorithm .\n\n"
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="email">Email Address</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="save_history">Save</string>
+    <string name="progressText">NO FINGER DETECTED</string>
+    <string name="detecting">"Detecting Pulse…\n"
+    "DO NOT REMOVE FINGER"
+    </string>
+</resources>

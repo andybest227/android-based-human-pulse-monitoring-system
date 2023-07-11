@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/design_default_color_primary"
+    tools:context=".ui.main.Home">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/logo"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="47dp"
+                android:background="@color/design_default_color_primary"
+                android:contentDescription="@string/todo"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:src="@drawable/info"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:src="@drawable/heart_ic"
+                android:layout_above="@id/hpm"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="1dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/hpm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@android:string/yes"
+                android:gravity="center"
+                android:text="@string/hpm"
+                android:textColor="@color/white"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/lbl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hpm"
+                android:text="@string/monitoring_system"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl2"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@android:string/dialog_alert_title"
+                android:gravity="center_horizontal"
+                android:text="@string/instr"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/instruction"
+                android:layout_marginTop="100dp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="12sp"
+                tools:ignore="TextContrastCheck" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
